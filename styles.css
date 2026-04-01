@@ -1,45 +1,51 @@
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     background-color: #f4f4f4;
     padding: 20px;
 }
+
 .container {
     max-width: 800px;
     margin: 0 auto;
     background: white;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-h1,
-h2,
-h3 {
-    font-family: Playfair Display;
-}
+
 h1 {
+    font-family:'Courier New', Courier, monospace;
     text-transform: uppercase;
     justify-self: center;
 }
+
 h2 {
+    font-family:'Courier New', Courier, monospace;
     margin-top: 20px;
     text-decoration: underline;
 }
+
 h3 {
+    font-family:'Courier New', Courier, monospace;
     font-style: italic;
 }
+
 p {
     text-indent: 1.2em;
     line-height: 1.7em;
     font-weight: 400;
 }
+
 a {
     text-decoration: none;
     font-weight: 800;
     color: rgb(61, 171, 214);
 }
+
 a:hover {
     text-decoration: underline;
 }
+
 blockquote {
     background: #eee;
     padding: 10px 20px;
@@ -50,10 +56,12 @@ blockquote {
     font-size: 1.1em;
     line-height: 1.7em;
 }
+
 ul {
     padding-left: 20px;
     line-height: 1.8em;
 }
+
 pre {
     background: #333;
     padding: 10px;
@@ -61,7 +69,4 @@ pre {
     overflow-x: auto;
     color: #FFFF;
     line-height: 1.8em;
-}
-.highlight {
-    background-color: yellow;
 }
