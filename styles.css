@@ -70,3 +70,20 @@ pre {
     color: #FFFF;
     line-height: 1.8em;
 }
+
+.highlight {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+.strike {
+    text-decoration: line-through;
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+.stretch {
+    letter-spacing: 5px;
+}
